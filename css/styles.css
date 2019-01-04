@@ -1,0 +1,144 @@
+
+h1,h3 {
+  font-family: 'Staatliches', cursive
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}
+
+.hero {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: url(../images/HeroSun.gif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  width: 25%;
+}
+
+.news {
+  background-image: linear-gradient(rgba(219, 164,181,0.5),rgba(219, 164,181,0.5)),url(../images/tile.jpg);
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #2a2a2a;
+
+}
+
+.about {
+  background-color: cadetblue;
+}
+
+.about img {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.blurb {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.music {
+  background-color: #2a2a2a;
+  background-image: linear-gradient(rgba(219, 164,181,0.5),rgba(219, 164,181,0.5)),url(../images/tile.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.music img {
+  width: 25%;
+  padding-bottom: 50px;
+}
+
+.music a {
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+.twelve {
+  padding-top: 50px;
+}
+
+.follow img {
+  width: 25%;
+  padding-bottom: 50px;
+  vertical-align: middle;
+}
+
+.follow {
+  background-color: #2b2d2d;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.icon {
+  max-width: 80px;
+}
+
+.contact {
+  height: 100vh;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+
+  background-image: linear-gradient(rgba(219,144,168,0.2),rgba(30, 158,158,0.2)), url(../images/EO2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: #2b2d2d;
+  height: 80px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 2em;
+  color: cadetblue;
+}
+
+.icon {
+  padding: 50px;
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
