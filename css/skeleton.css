@@ -403,7 +403,16 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (max-width: 400px) {
+  .follow {
+    padding-left: 5%;
+    padding-left: 5%;
+  }
+
+  #spotify {
+    width: 200px;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}

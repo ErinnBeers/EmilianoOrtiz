@@ -4,9 +4,11 @@
 
 <head>
   <title>Emiliano Ortiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Staatliches" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -42,15 +44,15 @@
       <div class="row">
         <div class="one-third column">
           <a href="https://open.spotify.com/album/09XL7SmBUzw1kGoUfxiO74" target="_blank">Spotify</a>
-          <iframe class="shadow" src="https://open.spotify.com/embed/album/09XL7SmBUzw1kGoUfxiO74" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe id="spotify" src="https://open.spotify.com/embed/album/09XL7SmBUzw1kGoUfxiO74" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
         <div class="one-third column">
           <a href="https://itunes.apple.com/us/album/high-again-ep/id1154101885" target="_blank">iTunes</a>
-          <iframe class="shadow" style="padding: 0; width: 660px; height: 450px; max-width: 100%; border: none; overflow: hidden; background: transparent;" src="https://embed.music.apple.com/us/album/high-again-ep/id1154101885" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"></iframe>
+          <iframe style="padding: 0; width: 660px; height: 450px; max-width: 100%; border: none; overflow: hidden; background: transparent;" src="https://embed.music.apple.com/us/album/high-again-ep/id1154101885" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"></iframe>
         </div>
         <div class="one-third column">
           <a href="https://soundcloud.com/emilianoortiz/sets/emiliano-ortiz-high-again-1" target="_blank">SoundCloud</a>
-          <iframe class="shadow" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/255916904&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/255916904&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </div>
     </div>
       <div class="row">
@@ -74,23 +76,25 @@
 
   <section class="follow">
     <div class="container">
-      <img src="images/follow-white.png">
       <div class="row">
+        <img class="u-full-width" src="images/follow-white.png">
+        <div class="row">
         <div class="one-third column">
           <a href="https://www.instagram.com/emilianoortiz/">
-            <img class="icon" src="images/IG.png">
+            <img class="-img-responsive icon" src="images/IG.png">
           </a>
         </div>
         <div class="one-third column">
           <a href="https://www.youtube.com/EmilianoOrtiz">
-            <img class="icon" src="images/YT.png">
+            <img class="u-img-responsive icon" src="images/YT.png">
           </a>
         </div>
         <div class="one-third column">
           <a href="https://www.facebook.com/emilianoortizmusic">
-            <img class="icon" src="images/FB.png">
+            <img class="-img-responsive icon" src="images/FB.png">
           </a>
         </div>
+      </div>
       </div>
     </div>
   </section>
