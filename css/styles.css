@@ -52,10 +52,10 @@ h4 {
 
 .blurb {
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  /* margin-left: 20px;
-  margin-right: 0; */
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .music {
@@ -72,7 +72,7 @@ h4 {
 }
 
 .music img {
-  width: 25%;
+  width: 75%;
   padding-bottom: 50px;
 }
 
@@ -87,10 +87,14 @@ h4 {
   padding-top: 50px;
 }
 
+#follow-hdr {
+  width: 75%;
+  padding-top: 5%
+}
+
 .follow img {
   width: 25%;
   padding-bottom: 50px;
-  vertical-align: middle;
 }
 
 .follow {

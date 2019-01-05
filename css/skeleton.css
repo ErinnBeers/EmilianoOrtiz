@@ -402,26 +402,130 @@ there.
 */
 
 
-/* Larger than mobile */
 @media (max-width: 400px) {
+
+  #logo {
+    width: 50%;
+  }
+
   .follow {
     padding-left: 5%;
     padding-left: 5%;
   }
 
   #spotify {
-    width: 200px;
+    width: 275px;
+  }
+
+  .spot-text {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .blurb {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #logo {
+    width: 50%;
+  }
+
+  .blurb {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
+
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .music img {
+    width: 50%;
+  }
+
+  #spotify {
+    width: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #follow-hdr {
+    width: 50%;
+  }
+
+  .follow img {
+    width: 50%;
+  }
+
+
+
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  #logo {
+    width: 40%;
+  }
+
+  .music img {
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  #follow-hdr {
+    width: 50%%;
+  }
+
+  #spotify {
+    width: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .music {
+    padding-bottom: 50px;
+  }
+
+  .follow img {
+    padding-top: 5%;
+    padding-bottom: 50px;
+  }
+
+
+
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+  #logo {
+    width: 25%;
+  }
+
+  .music img {
+    width: 25%;
+  }
+
+  #spotify {
+    width: 250px;
+  }
+
+  #follow-hdr {
+    width: 25%;
+  }
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .music img {
+    width: 25%;
+  }
+
+  #follow-hdr {
+    width: 25%;
+  }
+}
