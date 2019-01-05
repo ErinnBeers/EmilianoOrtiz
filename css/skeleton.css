@@ -411,7 +411,11 @@ there.
   .follow {
     padding-left: 5%;
     padding-left: 5%;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+  }
+
+  .follow img {
+    padding-bottom: 5px;
   }
 
   #spotify {
@@ -427,6 +431,7 @@ there.
     padding-left: 5%;
     padding-right: 5%;
   }
+
 }
 
 /* Larger than mobile */

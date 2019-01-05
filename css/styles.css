@@ -10,7 +10,6 @@ h4 {
 
 .hero {
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,10 +28,11 @@ h4 {
 .news {
   background-image: linear-gradient(rgba(219, 164,181,0.5),rgba(219, 164,181,0.5)),url(../images/tile.jpg);
 
-  background-size: cover;
+  background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 
   text-align: center;
   padding-top: 100px;
