@@ -411,6 +411,7 @@ there.
   .follow {
     padding-left: 5%;
     padding-left: 5%;
+    padding-bottom: 20px;
   }
 
   #spotify {
@@ -439,6 +440,11 @@ there.
     padding-right: 5%;
   }
 
+  .spot-text {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -460,9 +466,6 @@ there.
   .follow img {
     width: 50%;
   }
-
-
-
 }
 
 /* Larger than tablet */
